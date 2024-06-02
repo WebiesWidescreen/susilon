@@ -1,0 +1,32 @@
+.salCon {
+    text-align: center;
+    margin: 10px;
+    padding: 5%;
+}
+
+.salHead {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 1;
+    font-family:'Times New Roman', Times, serif
+}
+
+.salSpan {
+    font-weight: 600;
+    font-size: 90px;
+    display: block;
+    color: #D2B55B;
+}
+
+.salImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.salPar {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #666;
+}

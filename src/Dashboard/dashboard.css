@@ -1,0 +1,345 @@
+.container2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin-top: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container3 {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.cardSha {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.headCouTxt {
+    font-weight: 600;
+    font-size: 90px;
+    color: #fff;
+    text-align: left;
+    line-height: 1;
+    font-family:'Times New Roman', Times, serif
+}
+
+.spanCou {
+    font-weight: 600;
+    font-size: 50px;
+    display: block;
+    color: #D2B55B;
+}
+
+.logoImg {
+    position: relative;
+    bottom: 400px;
+    left: 36%;
+}
+
+.navBarSty {
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+    border-bottom: 6px solid #D2B55B;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+    margin-top: -58px;
+}
+
+.navCen {
+    max-width: 700px;
+}
+
+.carMainCon {
+    background: #fff;
+    padding: 40px 0px 40px;
+    display: table;
+    width: 100%;
+}
+
+.carSubCon {
+    background: #fff;
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.15);
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.carHeadCon {
+    width: 100%;
+    margin-left: 0;
+}
+
+.carHeadTxt {
+    border: medium none;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-top: 0 !important;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 6px 20px;
+    background: #222;
+    display: table;
+    margin: 40px auto 0 !important;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.carParCon {
+    text-align: center;
+}
+
+.carParTxt {
+    color: #888;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 15px auto 0;
+}
+
+.carParLinTxt {
+    color: #D2B55B;
+    text-decoration: none;
+}
+
+.carMainPara {
+    background-image: url('../assets/parallax-1.jpg');
+    background-position: 50% 154px;
+    background-attachment: fixed !important;
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.carMainPara.carSubPara {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.carMainPara.carSubPara.carQuote {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.carQuote {
+    padding: 100px 0;
+}
+
+.carContPara {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+.carImgMain {
+    width: 100%;
+    margin-left: 0;
+}
+
+.carimageClip {
+    max-width: 100%;
+    height: auto;
+}
+
+#awards + #parallax-2 {
+    height: auto !important;
+}
+
+.carMainPara2 {
+    background-image: url("../assets/parallax-2_1.jpg");
+    background-position: 50% 7px;
+    background-attachment: fixed !important;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.carMainPara2 .quoteWrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.carMainPara2 .quoteWrap .quote {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.quote {
+    padding: 100px 0;
+}
+
+.containerPara2 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+.ulPara2 {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+    zoom: 1;
+}
+
+.ulPara2 li {
+    width: 20%;
+    float: left;
+}
+
+.statItem {
+    position: relative;
+    cursor: default;
+    padding: 10px;
+}
+
+.statInfo {
+    overflow: hidden;
+}
+
+.statInfo h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 55px;
+    margin: 0 auto;
+    padding: 0px 0 15px 0;
+    font-weight: 700;
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.statInfo p {
+    color: #FFF;
+    padding: 10px 5px;
+    margin: 0px auto;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.carMainPara3 {
+    background-image: url('../assets/parallax-21.jpg');
+    background-position: 50% 66px;
+    background-attachment: fixed !important;
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.carMainPara4 {
+    background-image: url('../assets/parallax-3.jpg');
+    background-position: 50% -29px;
+    background-attachment: fixed !important;
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.carMainPara5 {
+    background-image: url('../assets/parallax-4.jpg');
+    background-position: 50% 69px;
+    background-attachment: fixed !important;
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    border-top: 10px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 10px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.parallax5Head {
+    font-size: 22px;
+    line-height: 1;
+    color: #555;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 6px;
+}
+
+.carMainPara5 h3 span {
+    text-shadow: 0px 0px 5px #222;
+    color: #fff;
+}
+
+.large {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.largeBold {
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

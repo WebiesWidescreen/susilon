@@ -1,0 +1,106 @@
+#pricing {
+    position: relative !important;
+    z-index: 6;
+    background: #fff;
+    background-attachment: scroll;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+#pricing h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 300;
+    color: #222;
+    margin: 0 0 6px;
+}
+
+.pricingColWid{
+    width: 33.33333333%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.priCardGrup {
+    text-align: center;
+}
+
+.serviceImage {
+    background-image: url("../assets/cut.jpg");
+    position: relative;
+    border: 5px solid rgb(210, 181, 91);
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(210, 181, 91, 0.3) inset;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto 30px;
+}
+
+.serviceImage h4 {
+    text-align: center;
+    font-size: 20px;
+    padding: 90px 30px 0;
+    font-weight: 300;
+    color: #222;
+    margin: 0 0 6px;
+}
+
+.serviceImage2 {
+    background-image: url("../assets/colour.jpg");
+    position: relative;
+    border: 5px solid rgb(210, 181, 91);
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(210, 181, 91, 0.3) inset;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto 30px;
+}
+
+.serviceImage2 h4 {
+    text-align: center;
+    font-size: 20px;
+    padding: 90px 30px 0;
+    font-weight: 300;
+    color: #222;
+    margin: 0 0 6px;
+}
+
+.serviceImage3 {
+    background-image: url("../assets/style.jpg");
+    position: relative;
+    border: 5px solid rgb(210, 181, 91);
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(210, 181, 91, 0.3) inset;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto 30px;
+}
+
+.serviceImage3 h4 {
+    text-align: center;
+    font-size: 20px;
+    padding: 90px 30px 0;
+    font-weight: 300;
+    color: #222;
+    margin: 0 0 6px;
+}
+
+.priDesc {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #666;
+}
+
+.fadeTxtPri {
+    position: relative;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    width: 211px;
+    height: 211px;
+    opacity: 0.8;
+}
