@@ -68,7 +68,7 @@ const TeamComponent = () => {
                     <img
                       className="teamCourImgResp"
                       src={Team2}
-                      alt="First slide"
+                      alt="Second slide"
                     />
                     <div className="caroTxtTeam">
                       <p>
@@ -84,7 +84,7 @@ const TeamComponent = () => {
                     <img
                       className="teamCourImgResp"
                       src={Team3}
-                      alt="First slide"
+                      alt="Third slide"
                     />
                     <div className="caroTxtTeam">
                       <p>

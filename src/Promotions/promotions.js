@@ -37,7 +37,11 @@ const PromotionsComponent = () => {
                   <Card.Body>
                     <div className="accImage">
                       <div className="accImageInner">
-                        <img src={Promo} className="scale-with-grid" />
+                        <img
+                          src={Promo}
+                          alt="Promo"
+                          className="scale-with-grid"
+                        />
                       </div>
                     </div>
                   </Card.Body>
@@ -46,7 +50,7 @@ const PromotionsComponent = () => {
                   <Card.Body>
                     <div className="accTitle">
                       <h3>
-                        Recieve free Colour Treatment for the month of April
+                        Skin Whitening Creams: Uses, Benefits, and Concerns
                       </h3>
                     </div>
                   </Card.Body>
@@ -55,16 +59,18 @@ const PromotionsComponent = () => {
                   <Card.Body>
                     <div className="accText">
                       <p>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor
-                        ligula, eget lacinia odio sem nec elit. Sed posuere
-                        consectetur est at lobortis. Nulla vitae elit libero, a
-                        pharetra augue.
+                        Skin whitening creams are topical products designed to
+                        lighten skin tone by reducing melanin production.
+                        Commonly used ingredients include hydroquinone, kojic
+                        acid, and arbutin, which target hyperpigmentation, dark
+                        spots, and uneven skin tone.
                       </p>
                       <p>
-                        Sed posuere consectetur est at lobortis. Nulla vitae
-                        elit libero, a pharetra augue. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia
-                        odio sem nec elit.
+                        These creams are often sought for cosmetic reasons,
+                        aiming to achieve a brighter, more uniform complexion.
+                        However, their safety and efficacy can vary, and
+                        long-term use may pose health risks, such as skin
+                        irritation or more severe side effects.
                       </p>
                     </div>
                   </Card.Body>
@@ -81,7 +87,11 @@ const PromotionsComponent = () => {
                   <Card.Body>
                     <div className="accImage">
                       <div className="accImageInner">
-                        <img src={Promo2} className="scale-with-grid" />
+                        <img
+                          src={Promo2}
+                          alt="Promo2"
+                          className="scale-with-grid"
+                        />
                       </div>
                     </div>
                   </Card.Body>
@@ -89,9 +99,7 @@ const PromotionsComponent = () => {
                 <Card className="sercardPromo">
                   <Card.Body>
                     <div className="accTitle">
-                      <h3>
-                        Recieve free Colour Treatment for the month of April
-                      </h3>
+                      <h3>Contact Lenses: Types, Benefits, and Care</h3>
                     </div>
                   </Card.Body>
                 </Card>
@@ -99,16 +107,18 @@ const PromotionsComponent = () => {
                   <Card.Body>
                     <div className="accText">
                       <p>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor
-                        ligula, eget lacinia odio sem nec elit. Sed posuere
-                        consectetur est at lobortis. Nulla vitae elit libero, a
-                        pharetra augue.
+                        Contact lenses are thin, curved lenses placed on the
+                        surface of the eyes to correct vision or for cosmetic
+                        purposes. They offer an alternative to eyeglasses,
+                        providing a wider field of view and greater convenience
+                        for active lifestyles.
                       </p>
                       <p>
-                        Sed posuere consectetur est at lobortis. Nulla vitae
-                        elit libero, a pharetra augue. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia
-                        odio sem nec elit.
+                        Contact lenses come in various types, including daily,
+                        bi-weekly, monthly disposables, and specialized lenses
+                        for specific vision conditions. Proper hygiene and care
+                        are essential to prevent eye infections and maintain eye
+                        health.
                       </p>
                     </div>
                   </Card.Body>

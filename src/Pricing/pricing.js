@@ -32,7 +32,8 @@ const PricingComponent = () => {
         <CardGroup className="priCardGrup">
           <Card className="sercardAward">
             <Card.Body>
-              <h2>CUT</h2>
+              <h2>HAIR</h2>
+              <h2>EXTENSIONS</h2>
               <div
                 className="serviceImage"
                 onMouseEnter={() => setOpen(true)}
@@ -45,21 +46,26 @@ const PricingComponent = () => {
                     <h4>
                       Experienced
                       <br />
-                      Cutters
+                      Hair
+                      <br />
+                      Extensions
                     </h4>
                   </div>
                 </Fade>
               </div>
               <p className="priDesc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ac augue at erat hendrerit dictum. Praesent porta,
-                purus eget sagittis imperdiet, nulla mi ullamcorper metus.
+                Hair extensions are synthetic or natural hair pieces added to a
+                person's natural hair to enhance length, volume, or color. They
+                come in various types, including clip-ins, tape-ins, and
+                sew-ins, each differing in application methods and longevity.
               </p>
             </Card.Body>
           </Card>
           <Card className="sercardAward">
             <Card.Body>
+              <br />
               <h2>COLOUR</h2>
+              <br />
               <div
                 className="serviceImage2"
                 onMouseEnter={() => setOpen2(true)}
@@ -78,15 +84,17 @@ const PricingComponent = () => {
                 </Fade>
               </div>
               <p className="priDesc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ac augue at erat hendrerit dictum. Praesent porta,
-                purus eget sagittis imperdiet, nulla mi ullamcorper metus.
+                Hair color involves using dyes to change the natural color of
+                hair, offering options like temporary, semi-permanent, and
+                permanent solutions. It allows for a wide range of effects, from
+                subtle highlights and covering grays to bold, vibrant changes.
               </p>
             </Card.Body>
           </Card>
           <Card className="sercardAward">
             <Card.Body>
-              <h2>STYLE</h2>
+              <h2>MICRO</h2>
+              <h2>BLADING</h2>
               <div
                 className="serviceImage3"
                 onMouseEnter={() => setOpen3(true)}
@@ -97,17 +105,19 @@ const PricingComponent = () => {
                 <Fade in={open3}>
                   <div id="example-fade-text" className="fadeTxtPri">
                     <h4>
-                      Latest Modern
+                      Latest Micro
                       <br />
-                      Styles
+                      Blanding
                     </h4>
                   </div>
                 </Fade>
               </div>
               <p className="priDesc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ac augue at erat hendrerit dictum. Praesent porta,
-                purus eget sagittis imperdiet, nulla mi ullamcorper metus.
+                Microblading is a semi-permanent cosmetic tattooing technique
+                used to create the appearance of fuller eyebrows by drawing
+                fine, hair-like strokes with a blade. The results typically last
+                1-3 years, offering a natural and long-lasting enhancement to
+                brow shape and density.
               </p>
             </Card.Body>
           </Card>

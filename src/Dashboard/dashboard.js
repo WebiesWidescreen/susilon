@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -11,6 +11,7 @@ import Silder3 from "../assets/Sild3.JPG";
 import Silder4 from "../assets/Sild4.JPG";
 import Logo from "../assets/logoSus.png";
 import "./dashboard.css";
+import Icon from "../Icons/icons";
 import SalonComponent from "../Salon/salon";
 import ServicesComponent from "../Services/services";
 import ModalClip from "../assets/model-clipped.png";
@@ -20,9 +21,10 @@ import PricingComponent from "../Pricing/pricing";
 import ModalClip2 from "../assets/model-clipped-2.png";
 import PromotionsComponent from "../Promotions/promotions";
 import GalleryComponent from "../Gallery/gallery";
+import ContactComponent from "../Contact/contact";
 
 const DashboardScreen = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <div>
       <Carousel fade indicators={false} id="home">
@@ -44,7 +46,7 @@ const DashboardScreen = () => {
           <img
             className="d-block w-100"
             src={Silder2}
-            alt="First slide"
+            alt="Second slide"
             height={1000}
           />
           <Carousel.Caption>
@@ -58,7 +60,7 @@ const DashboardScreen = () => {
           <img
             className="d-block w-100"
             src={Silder3}
-            alt="First slide"
+            alt="Third slide"
             height={1000}
           />
           <Carousel.Caption>
@@ -72,7 +74,7 @@ const DashboardScreen = () => {
           <img
             className="d-block w-100"
             src={Silder4}
-            alt="First slide"
+            alt="Fourth slide"
             height={1000}
           />
           <Carousel.Caption>
@@ -107,16 +109,35 @@ const DashboardScreen = () => {
                 <Nav.Link href="#gallery">GALLERY</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="link-6">CONTACT</Nav.Link>
+                <Nav.Link href="#contact">CONTACT</Nav.Link>
+              </Nav.Item>
+              {/* <Nav.Item>
+                <Nav.Link eventKey="link-7">BLOG</Nav.Link>
+              </Nav.Item> */}
+              <Nav.Item>
+                <Nav.Link href="https://www.youtube.com/@SusilonTheBeautyArtStudio">
+                  <Icon name="youtube" size="19px" />
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="link-7">BLOG</Nav.Link>
+                <Nav.Link href="https://www.facebook.com/profile.php?id=61552032444391&paipv=0&eav=AfZyI73EJUA5I27WLtHae7dGhOw_TiVGr0R5Brk5wD_CkeWVVmu-yXgoKK9FGSD1n9Y&_rdr">
+                  <Icon name="facebook" size="19px" />
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="https://www.instagram.com/susilonbeautyartstudio/?igsh=MXhtaWM2MnIxbTFhaQ%3D%3D">
+                  <Icon name="instagram" size="19px" />
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <ScrollSpy>
+      <ScrollSpy
+        items={["home", "salon"]}
+        currentClassName="is-current"
+        style={{ position: "fixed", top: "10px", left: "10px" }}
+      >
         <SalonComponent />
         <ServicesComponent />
         {/* carrer opportunity start */}
@@ -144,7 +165,11 @@ const DashboardScreen = () => {
               <div className="carContPara">
                 <div className="carImgMain">
                   <div>
-                    <img src={ModalClip} className="carimageClip" />
+                    <img
+                      src={ModalClip}
+                      alt="ModalClip"
+                      className="carimageClip"
+                    />
                   </div>
                 </div>
               </div>
@@ -207,7 +232,11 @@ const DashboardScreen = () => {
               <div className="carContPara">
                 <div className="carImgMain">
                   <div>
-                    <img src={ModalClip2} className="carimageClip" />
+                    <img
+                      src={ModalClip2}
+                      alt="ModalClip2"
+                      className="carimageClip"
+                    />
                   </div>
                 </div>
               </div>
@@ -221,7 +250,7 @@ const DashboardScreen = () => {
           <div className="quoteWrap">
             <div className="quote">
               <div className="containerPara2">
-                <h3 className="parallax5Head">
+                <h3 className="parallax6Head">
                   <span className="large">CREATIVE.</span>
                   <span className="largeBold">ARTISTIC.</span>
                   <span className="large">PASSIONATE.</span>
@@ -232,6 +261,24 @@ const DashboardScreen = () => {
         </div>
         {/* parallax-5 end */}
         <GalleryComponent />
+        {/* parallax-6 start */}
+        <div id="parallax-6" className="carMainPara6">
+          <div className="quoteWrap">
+            <div className="quote">
+              <div className="containerPara2">
+                <h3 className="parallax6Head">
+                  <span className="largeBold">How can I</span>
+                  <span className="large">control my life</span>
+                  <br />
+                  <span className="medium">when I can't</span>
+                  <span className="mediumBold">control my hair?</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* parallax-6 start */}
+        <ContactComponent />
       </ScrollSpy>
     </div>
   );

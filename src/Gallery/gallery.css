@@ -1,54 +1,112 @@
 #gallery {
-    position: relative !important;
-    z-index: 6;
-    background: #fff;
-    background-attachment: scroll;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    overflow: hidden;
+  position: relative !important;
+  z-index: 6;
+  background: #fff;
+  background-attachment: scroll;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
 }
 
 #gallery h3 {
-    margin: -5px 0 50px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #555;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  margin: -5px 0 50px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #555;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .thumbImage {
-    background-image: url("../assets/cut.jpg");
-    position: relative;
-    border: 5px solid rgb(210, 181, 91);
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px rgba(210, 181, 91, 0.3) inset;
-    width: 220px;
-    height: 220px;
-    margin: 20px auto 30px;
+  background-image: url("../assets/g-1_small.jpg");
+  position: relative;
+  border: 5px solid rgb(210, 181, 91);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 20px auto 30px;
+}
+
+.thumbImage2 {
+  background-image: url("../assets/g-2_small.jpg");
+  position: relative;
+  border: 5px solid rgb(210, 181, 91);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 20px auto 30px;
+}
+
+.thumbImage3 {
+  background-image: url("../assets/g-3_small.jpg");
+  position: relative;
+  border: 5px solid rgb(210, 181, 91);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 20px auto 30px;
+}
+
+.thumbImage4 {
+  background-image: url("../assets/g-4_small.jpg");
+  position: relative;
+  border: 5px solid rgb(210, 181, 91);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 20px auto 30px;
+}
+
+.thumbImage5 {
+  background-image: url("../assets/g-5_small.jpg");
+  position: relative;
+  border: 5px solid rgb(210, 181, 91);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 20px auto 30px;
 }
 
 .iconWrapper {
-    background-color: rgba(210, 181, 91, 0.7);
-    background-image: url('../assets/btn-zoom.png');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 50% 50% 50% 50%;
-    display: inline-block;
-    height: 60px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    width: 60px;
-    z-index: 1000;
+  background-color: rgba(210, 181, 91, 0.7);
+  background-image: url("../assets/btn-zoom.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50% 50% 50% 50%;
+  display: inline-block;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 60px;
+  z-index: 1000;
 }
 
 .fadeIconGal {
-    position: relative;
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
-    width: 211px;
-    height: 211px;
+  position: relative;
+  border-radius: 50%;
+  top: 77px;
+  cursor: pointer;
+}
+
+.galModSty {
+  padding: 9px;
+}
+
+.modalImg {
+  height: 780px;
+  width: 780px;
+}
+
+.galModParTxt {
+  margin: 10px;
+  padding: 5px;
+}
+
+.galModClose {
+  float: inline-end;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: lightgrey;
 }
