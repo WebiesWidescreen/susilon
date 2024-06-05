@@ -5,26 +5,34 @@ import Col from "react-bootstrap/Col";
 import Salon1 from "../assets/das1.png";
 import Salon2 from "../assets/das2.png";
 import Salon3 from "../assets/das3.png";
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 import "./salon.css";
 
 const SalonComponent = () => {
   return (
-    <div className="salCon" id="salon">
+    <section className="salCon" id="salon">
       <Container>
         <h2 className="salHead">
           <span className="salSpan">SUSILON THE BEAUTY</span> ART SALON
         </h2>
-        <Row>
-          <Col>
-            <img src={Salon1} alt="Salon1" className="salImg" />
-          </Col>
-          <Col>
-            <img src={Salon2} alt="Salon2" className="salImg" />
-          </Col>
-          <Col>
-            <img src={Salon3} alt="Salon3" className="salImg" />
-          </Col>
-        </Row>
+        <CardGroup>
+          <Card className="sercardSalon">
+            <Card.Body>
+              <img src={Salon1} alt="Salon1" className="salImg" />
+            </Card.Body>
+          </Card>
+          <Card className="sercardSalon">
+            <Card.Body>
+              <img src={Salon2} alt="Salon2" className="salImg" />
+            </Card.Body>
+          </Card>
+          <Card className="sercardSalon">
+            <Card.Body>
+              <img src={Salon3} alt="Salon3" className="salImg" />
+            </Card.Body>
+          </Card>
+        </CardGroup>
         <br />
         <Row>
           <Col>
@@ -45,7 +53,7 @@ const SalonComponent = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

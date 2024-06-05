@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ScrollSpy from "react-ui-scrollspy";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Silder1 from "../assets/Sild1.JPG";
 import Silder2 from "../assets/Sild2.JPG";
 import Silder3 from "../assets/Sild3.JPG";
@@ -86,7 +88,11 @@ const DashboardScreen = () => {
         <Container className="navCen">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav variant="underline" defaultActiveKey="#home">
+            <Nav
+              variant="underline"
+              defaultActiveKey="#home"
+              style={{ textAlign: "justify" }}
+            >
               <Nav.Item>
                 <Nav.Link href="#home">HOME</Nav.Link>
               </Nav.Item>
@@ -133,27 +139,27 @@ const DashboardScreen = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <ScrollSpy
-        items={["home", "salon"]}
-        currentClassName="is-current"
-        style={{ position: "fixed", top: "10px", left: "10px" }}
-      >
+      <div>
         <SalonComponent />
         <ServicesComponent />
         {/* carrer opportunity start */}
         <div className="carMainCon">
           <div className="carSubCon">
-            <div className="carHeadCon">
-              <h3 className="carHeadTxt">CAREER OPPORTUNITIES</h3>
-            </div>
-            <div className="carParCon">
-              <p className="carParTxt">
-                Interested in becoming the part of our great team, <br />{" "}
-                <a className="carParLinTxt" href="#contact">
-                  Contact us
-                </a>{" "}
-                today to get the opportunity.
-              </p>
+            <div className="row">
+              <div className="col-12 carHeadCon">
+                <div className="carHeadCon">
+                  <h3 className="carHeadTxt">CAREER OPPORTUNITIES</h3>
+                </div>
+                <div className="carParCon">
+                  <p className="carParTxt">
+                    Interested in becoming the part of our great team, <br />{" "}
+                    <a className="carParLinTxt" href="#contact">
+                      Contact us
+                    </a>{" "}
+                    today to get the opportunity.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -231,7 +237,7 @@ const DashboardScreen = () => {
             <div className="carQuote">
               <div className="carContPara">
                 <div className="carImgMain">
-                  <div>
+                  <div className="par4ImgClip">
                     <img
                       src={ModalClip2}
                       alt="ModalClip2"
@@ -279,7 +285,7 @@ const DashboardScreen = () => {
         </div>
         {/* parallax-6 start */}
         <ContactComponent />
-      </ScrollSpy>
+      </div>
     </div>
   );
 };

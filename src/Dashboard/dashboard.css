@@ -37,7 +37,7 @@
 .logoImg {
   position: relative;
   bottom: 400px;
-  left: 36%;
+  left: 25%;
 }
 
 .navBarSty {
@@ -62,52 +62,103 @@
   padding: 40px 0px 40px;
   display: table;
   width: 100%;
+  position: relative !important;
+  z-index: 6;
+  overflow: hidden;
 }
 
-.carSubCon {
+.carMainCon .carSubCon {
   background: #fff;
   box-shadow: 0 0px 25px rgba(0, 0, 0, 0.15);
   padding-bottom: 30px;
+}
+
+.carSubCon {
   position: relative;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 0px;
   box-sizing: border-box;
+}
+
+.carMainCon .carSubCon .row {
+  margin-bottom: 10px;
 }
 
 .carHeadCon {
   width: 100%;
   margin-left: 0;
+  float: left;
+  box-sizing: border-box;
 }
 
-.carHeadTxt {
+@media (min-width: 550px) {
+  .carHeadCon {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .carSubCon {
+    width: 100%;
+    max-width: 500px !important;
+    padding: 0 15px !important;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .carSubCon .carHeadCon .carParCon {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .carParCon {
+    margin-left: 0% !important;
+  }
+}
+
+.carHeadCon {
+  float: left;
+  box-sizing: border-box;
+}
+
+.carMainCon h3 {
   border: medium none;
   text-transform: uppercase;
   font-size: 23px;
   margin-top: 0 !important;
-  font-family: "Times New Roman", Times, serif;
-  border: none;
-  font-size: 28px;
+  font-family: "Times New Roman", Times, serif, cursive;
+  font-weight: 300;
+}
+
+.carHeadTxt {
   line-height: 30px;
-  margin-bottom: 10px;
   padding: 6px 20px;
   background: #222;
   display: table;
   margin: 40px auto 0 !important;
   color: #fff;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .carParCon {
   text-align: center;
 }
 
-.carParTxt {
+.carMainCon p {
   color: #888;
   font-size: 19px;
   line-height: 30px;
   margin: 15px auto 0;
+}
+
+.carParTxt {
+  max-width: 69%;
 }
 
 .carParLinTxt {
@@ -168,6 +219,12 @@
   height: auto;
 }
 
+@media only screen and (max-width: 479px) {
+  .par4ImgClip {
+    margin-top: 211px;
+  }
+}
+
 #awards + #parallax-2 {
   height: auto !important;
 }
@@ -215,6 +272,14 @@
   box-sizing: border-box;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .containerPara2 {
+    width: 100%;
+    max-width: 500px !important;
+    padding: 0 15px !important;
+  }
+}
+
 .ulPara2 {
   margin: 20px 0 0 0;
   padding: 0;
@@ -229,6 +294,13 @@
 .ulPara2 li {
   width: 20%;
   float: left;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .ulPara2 li {
+    width: 100%;
+    float: none;
+  }
 }
 
 .statItem {
@@ -333,15 +405,36 @@
   color: #fff;
 }
 
+@media only screen and (max-width: 959px) {
+  .carMainPara5 h3 span {
+    display: block;
+  }
+}
+
 .large {
   font-size: 56px;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 959px) {
+  .large {
+    font-size: 50px;
+    text-transform: uppercase;
+  }
 }
 
 .largeBold {
   font-size: 56px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 959px) {
+  .largeBold {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 }
 
 .carMainPara6 {

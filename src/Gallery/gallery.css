@@ -90,13 +90,25 @@
   cursor: pointer;
 }
 
+.modal.show .modal-dialog {
+  transform: none;
+  max-width: 466px;
+}
+
 .galModSty {
   padding: 9px;
 }
 
 .modalImg {
-  height: 780px;
-  width: 780px;
+  height: 446px;
+  width: 446px;
+}
+
+@media only screen and (max-width: 767px) {
+  .galModSty img {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
 .galModParTxt {

@@ -33,27 +33,26 @@
   text-align: center;
 }
 
-.subBut {
-  background-color: #d2b55b;
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-  background-image: none;
-  box-shadow: none;
-  padding: 15px;
+.contactInput {
+  background: #f4ecd4;
+  border: medium none;
 }
 
-.subBut:valid:focus {
-  background-color: #d2b55b;
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-  background-image: none;
+.contactInput:focus {
+  background: #f4ecd4;
+  border: medium none;
   box-shadow: none;
 }
 
-.form-control.is-valid,
-.was-validated .form-control:valid {
-  background-image: none;
-  box-shadow: none;
+.contactBtnSty {
+  width: 100%;
+  padding: 10px;
+  background: #d2b55b;
+  color: white;
+  border: none;
+}
+
+.contactBtnSty:hover {
+  color: #222;
+  background: #ddd !important;
 }

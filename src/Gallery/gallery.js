@@ -176,8 +176,7 @@ const GalleryComponent = () => {
       <Modal
         show={showModal}
         onHide={handleClose}
-        animation={false}
-        size="lg"
+        size="md"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >

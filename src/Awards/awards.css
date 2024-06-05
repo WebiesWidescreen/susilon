@@ -1,136 +1,150 @@
 .awardsSec {
-    position: relative !important;
-    z-index: 6;
-    background: #fff;
-    background-attachment: scroll;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    overflow: hidden;
+  position: relative !important;
+  z-index: 6;
+  background: #fff;
+  background-attachment: scroll;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
 }
 
 .awardsCon {
-    position: relative;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .awardsCon {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 0px;
-    box-sizing: border-box;
+    max-width: 500px !important;
+    padding: 0 15px !important;
+  }
 }
 
 .awardsRow {
-    zoom: 1;
-    margin-bottom: 10px;
+  zoom: 1;
+  margin-bottom: 10px;
 }
 
 .awardsTxtCon {
-    width: 100%;
-    margin-left: 0;
+  width: 100%;
+  margin-left: 0;
 }
 
 .awardsTxtHead {
-    font-size: 90px;
-    letter-spacing: 0;
-    margin-bottom: 25px;
-    position: relative;
-    text-transform: uppercase;
-    line-height: 1;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-    color: #222;
-    margin: 0 0 6px;
-    text-align: center;
+  font-size: 70px;
+  letter-spacing: 0;
+  margin-bottom: 25px;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: #222;
+  margin: 0 0 6px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .awardsTxtHead {
+    font-size: 41px;
+  }
 }
 
 .awardsTxtSpan {
-    color: #D2B55B;
+  color: #d2b55b;
 }
 
 .awardsIntroTxt {
-    font-size: 20px;
-    max-width: 67%;
-    margin: 0 auto;
+  font-size: 20px;
+  max-width: 67%;
+  margin: 0 auto;
 }
 
 #awards p {
-    color: #333;
+  color: #333;
 }
 
 .awardsPara {
-    margin-bottom: 20px;
-    font-size: 13px;
-    line-height: 22px;
-    text-align: center;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
 }
 
 .awardHighLight {
-    background: #D2B55B;
-    color: #FFFFFF;
-    padding: 0 6px;
+  background: #d2b55b;
+  color: #ffffff;
+  padding: 0 6px;
 }
 
 .awardsImage {
-    border-radius: 50%;
-    border: 5px solid rgb(210, 181, 91);
-    padding: 2px;
+  border-radius: 50%;
+  border: 5px solid rgb(210, 181, 91);
+  padding: 2px;
 }
 
 .awardsImage img {
-    border-radius: 50%;
-    display: block;
+  border-radius: 50%;
+  display: block;
 }
 
 .awardImgGrid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .awardsColSubHead {
-    font-size: 44px;
-    text-transform: uppercase;
-    position: relative;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    color: #222;
-    margin: 0 0 6px;
-    text-align: center;
+  font-size: 44px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  margin: 0 0 6px;
+  text-align: center;
 }
 
 #awards h3 {
-    font-size: 19px;
-    line-height: 1;
-    color: #555;
-    margin: 14px 0 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+  font-size: 19px;
+  line-height: 1;
+  color: #555;
+  margin: 14px 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .awardsListing {
-    text-align: center;
+  text-align: center;
 }
 
 .awardsListing ul {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .awardsListing ul li {
-    margin: 1px 0;
+  margin: 1px 0;
 }
 
 .awardsListing ul li span {
-    background: #D2B55B;
-    color: #fff;
-    padding: 7px 9px;
-    display: table;
-    margin: 0 auto 1px;
-    font-size: 13px;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  background: #d2b55b;
+  color: #fff;
+  padding: 7px 9px;
+  display: table;
+  margin: 0 auto 1px;
+  font-size: 13px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .sercardAward {
-    color: white;
-    border: none;
+  color: white;
+  border: none;
 }
