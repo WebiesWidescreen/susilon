@@ -477,3 +477,29 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+#btnBackToTop {
+  display: none;
+  background: #404040;
+  border-radius: 7px 7px 0 0;
+  bottom: 0px;
+  color: #fff;
+  display: block;
+  opacity: 0.75;
+  padding: 11px 0;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  width: 49px;
+  z-index: 1040;
+  border: none;
+  font-size: 14px;
+}
+
+#btnBackToTop:hover {
+  background-color: #404040;
+  opacity: 1;
+  color: #fff;
+}

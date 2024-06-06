@@ -1,12 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import ScrollSpy from "react-ui-scrollspy";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import Silder1 from "../assets/Sild1.JPG";
 import Silder2 from "../assets/Sild2.JPG";
 import Silder3 from "../assets/Sild3.JPG";
@@ -27,8 +25,35 @@ import ContactComponent from "../Contact/contact";
 
 const DashboardScreen = () => {
   // const navigate = useNavigate();
+
+  useEffect(() => {
+    const mybutton = document.getElementById("btnBackToTop");
+
+    const scrollFunction = () => {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+
+    window.onscroll = function () {
+      scrollFunction();
+    };
+  }, []);
+
+  const topFunction = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
   return (
     <div>
+      <Button id="btnBackToTop" onClick={() => topFunction()}>
+        ▲
+      </Button>
       <Carousel fade indicators={false} id="home">
         <Carousel.Item interval={3000}>
           <img
@@ -121,17 +146,26 @@ const DashboardScreen = () => {
                 <Nav.Link eventKey="link-7">BLOG</Nav.Link>
               </Nav.Item> */}
               <Nav.Item>
-                <Nav.Link href="https://www.youtube.com/@SusilonTheBeautyArtStudio">
+                <Nav.Link
+                  href="https://www.youtube.com/@SusilonTheBeautyArtStudio"
+                  target="_blank"
+                >
                   <Icon name="youtube" size="19px" />
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="https://www.facebook.com/profile.php?id=61552032444391&paipv=0&eav=AfZyI73EJUA5I27WLtHae7dGhOw_TiVGr0R5Brk5wD_CkeWVVmu-yXgoKK9FGSD1n9Y&_rdr">
+                <Nav.Link
+                  href="https://www.facebook.com/profile.php?id=61552032444391&paipv=0&eav=AfZyI73EJUA5I27WLtHae7dGhOw_TiVGr0R5Brk5wD_CkeWVVmu-yXgoKK9FGSD1n9Y&_rdr"
+                  target="_blank"
+                >
                   <Icon name="facebook" size="19px" />
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="https://www.instagram.com/susilonbeautyartstudio/?igsh=MXhtaWM2MnIxbTFhaQ%3D%3D">
+                <Nav.Link
+                  href="https://www.instagram.com/susilonthebeautyartstudio/?igsh=MXhtaWM2MnIxbTFhaQ%3D%3D"
+                  target="_blank"
+                >
                   <Icon name="instagram" size="19px" />
                 </Nav.Link>
               </Nav.Item>
