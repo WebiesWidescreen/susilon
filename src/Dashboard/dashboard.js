@@ -5,10 +5,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
-import Silder1 from "../assets/Sild1.JPG";
-import Silder2 from "../assets/Sild2.JPG";
-import Silder3 from "../assets/Sild3.JPG";
-import Silder4 from "../assets/Sild4.JPG";
+// import Silder1 from "../assets/Sild1.JPG";
+// import Silder2 from "../assets/Sild2.JPG";
+// import Silder3 from "../assets/Sild3.JPG";
+// import Silder4 from "../assets/Sild4.JPG";
 import Logo from "../assets/logoSus.png";
 import "./dashboard.css";
 import Icon from "../Icons/icons";
@@ -56,12 +56,13 @@ const DashboardScreen = () => {
       </Button>
       <Carousel fade indicators={false} id="home">
         <Carousel.Item interval={3000}>
-          <img
+          {/* <img
             className="d-block w-100"
             src={Silder1}
             alt="First slide"
             height={1000}
-          />
+          /> */}
+          <div className="caroImg" />
           <Carousel.Caption>
             <img src={Logo} alt="Logo" className="logoImg" />
             <h2 className="headCouTxt">
@@ -70,12 +71,13 @@ const DashboardScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img
+          {/* <img
             className="d-block w-100"
             src={Silder2}
             alt="Second slide"
             height={1000}
-          />
+          /> */}
+          <div className="caroImg2" />
           <Carousel.Caption>
             <img src={Logo} alt="Logo" className="logoImg" />
             <h2 className="headCouTxt">
@@ -84,12 +86,13 @@ const DashboardScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img
+          {/* <img
             className="d-block w-100"
             src={Silder3}
             alt="Third slide"
             height={1000}
-          />
+          /> */}
+          <div className="caroImg3" />
           <Carousel.Caption>
             <img src={Logo} alt="Logo" className="logoImg" />
             <h2 className="headCouTxt">
@@ -98,12 +101,13 @@ const DashboardScreen = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={3000}>
-          <img
+          {/* <img
             className="d-block w-100"
             src={Silder4}
             alt="Fourth slide"
             height={1000}
-          />
+          /> */}
+          <div className="caroImg4" />
           <Carousel.Caption>
             <img src={Logo} alt="Logo" className="logoImg" />
           </Carousel.Caption>

@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
-import Video from "../assets/ourTeamVideo.mp4";
+// import Video from "../assets/ourTeamVideo.mp4";
 import Team1 from "../assets/team1.jpg";
 import Team2 from "../assets/team2.jpg";
 import Team3 from "../assets/team3.jpg";
@@ -35,10 +35,20 @@ const TeamComponent = () => {
             <Card className="sercardAward">
               <Card.Body>
                 <div className="teamVideocontainer">
-                  <iframe
+                  {/* <iframe
                     title="The finest touch at Frasada Salon and Day Spa"
                     src={Video}
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  ></iframe> */}
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/wpreXkw2CkM?si=3e-qitB2gM2sn85_"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
                   ></iframe>
                 </div>
               </Card.Body>

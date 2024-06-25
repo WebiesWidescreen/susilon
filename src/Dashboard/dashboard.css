@@ -1,3 +1,31 @@
+.caroImg {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/Sild1.JPG") top center;
+  background-size: cover;
+}
+
+.caroImg2 {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/Sild2.JPG") top center;
+  background-size: cover;
+}
+
+.caroImg3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/Sild3.JPG") top center;
+  background-size: cover;
+}
+
+.caroImg4 {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/Sild4.JPG") top center;
+  background-size: cover;
+}
+
 .container2 {
   margin: 0 auto;
   text-align: center;
