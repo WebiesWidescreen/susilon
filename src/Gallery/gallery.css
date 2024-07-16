@@ -122,3 +122,12 @@
   padding: 6px;
   background-color: lightgrey;
 }
+
+.galModClosee {
+  float: inline-end;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 90%;
+}

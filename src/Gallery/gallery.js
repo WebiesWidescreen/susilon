@@ -181,11 +181,12 @@ const GalleryComponent = () => {
         centered
       >
         <Modal.Body className="galModSty">
+          <CloseButton className="galModClosee" onClick={handleClose} />
           <img src={modalImg} alt="ModalImage" className="modalImg" />
-          <p className="galModParTxt">
+          {/* <p className="galModParTxt">
             {modalContent}{" "}
             <CloseButton className="galModClose" onClick={handleClose} />
-          </p>
+          </p> */}
         </Modal.Body>
       </Modal>
     </div>

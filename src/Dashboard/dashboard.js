@@ -173,6 +173,14 @@ const DashboardScreen = () => {
                   <Icon name="instagram" size="19px" />
                 </Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link
+                  href="https://wa.me/message/AAFLTPCR3TNMM1"
+                  target="_blank"
+                >
+                  <Icon name="whatsapp" size="19px" />
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Container>

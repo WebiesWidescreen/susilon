@@ -79,6 +79,8 @@ const ContactComponent = () => {
       messageInput?.current?.focus();
     } else {
       setIsSpinner(true);
+      const url = `https://wa.me/7448484344?text=Name : ${formData.Fname}, Email: ${formData.email}, PhoneNumber: ${formData.phoneNumber}, Message: ${formData.message}`;
+      window.open(url, "_blank");
       emailjs
         .send(
           "service_d93a4sp", // Replace with your EmailJS service ID
