@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import { FaWhatsapp } from "react-icons/fa";
 // import Silder1 from "../assets/Sild1.JPG";
 // import Silder2 from "../assets/Sild2.JPG";
 // import Silder3 from "../assets/Sild3.JPG";
@@ -28,6 +29,7 @@ const DashboardScreen = () => {
 
   useEffect(() => {
     const mybutton = document.getElementById("btnBackToTop");
+    const myWhatsapp = document.getElementById("floating-whatsapp");
 
     const scrollFunction = () => {
       if (
@@ -35,8 +37,10 @@ const DashboardScreen = () => {
         document.documentElement.scrollTop > 20
       ) {
         mybutton.style.display = "block";
+        myWhatsapp.style.display = "block";
       } else {
         mybutton.style.display = "none";
+        myWhatsapp.style.display = "none";
       }
     };
 
@@ -51,6 +55,14 @@ const DashboardScreen = () => {
   };
   return (
     <div>
+      <a
+        href="https://wa.me/message/AAFLTPCR3TNMM1"
+        id="floating-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp size={32} />
+      </a>
       <Button id="btnBackToTop" onClick={() => topFunction()}>
         ▲
       </Button>

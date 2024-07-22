@@ -22,12 +22,12 @@ const GalleryComponent = () => {
   const [open5, setOpen5] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [modalImg, setModalImg] = useState("");
-  const [modalContent, setModalContent] = useState("");
+  // const [modalContent, setModalContent] = useState("");
   const handleClose = () => setShowModal(false);
   const handleShow = (Img, Txt) => {
     setShowModal(true);
     setModalImg(Img);
-    setModalContent(Txt);
+    // setModalContent(Txt);
   };
   return (
     <div id="gallery">
