@@ -41,42 +41,42 @@ const ContactComponent = () => {
         ...formData,
         errMsg: "Please fill the Name!",
       });
-      nameInput?.current?.focus();
+      nameInput.current.focus();
     } else if (email === "") {
       setAlertShow(true);
       setFormData({
         ...formData,
         errMsg: "Please fill the email!",
       });
-      mailInput?.current?.focus();
+      mailInput.current.focus();
     } else if (!email.includes("@")) {
       setAlertShow(true);
       setFormData({
         ...formData,
         errMsg: "Please enter a valid @email!",
       });
-      mailInput?.current?.focus();
+      mailInput.current.focus();
     } else if (phoneNumber === "") {
       setAlertShow(true);
       setFormData({
         ...formData,
         errMsg: "Please fill the phoneNumber!",
       });
-      phoneInput?.current?.focus();
+      phoneInput.current.focus();
     } else if (phoneNumber.length < 10) {
       setAlertShow(true);
       setFormData({
         ...formData,
         errMsg: "Please enter a valid mobile number!",
       });
-      phoneInput?.current?.focus();
+      phoneInput.current.focus();
     } else if (message === "") {
       setAlertShow(true);
       setFormData({
         ...formData,
         errMsg: "Please fill the message!",
       });
-      messageInput?.current?.focus();
+      messageInput.current.focus();
     } else {
       setIsSpinner(true);
       const url = `https://wa.me/7448484344?text=Name : ${formData.Fname}, Email: ${formData.email}, PhoneNumber: ${formData.phoneNumber}, Message: ${formData.message}`;
